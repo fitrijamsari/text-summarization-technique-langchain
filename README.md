@@ -6,7 +6,7 @@
 
 This project consist of the usage and application in various techniques for text summarization using LangChain.
 
-### Techniques 1: Basic Text Summarization:
+### Technique 1: Basic Text Summarization:
 
 **Use Case**: Small text file
 
@@ -16,7 +16,7 @@ Method:
 2. Load text directly to llm model
 3. Produce summary
 
-### Techniques 2: Prompt Template Text Summarization:
+### Technique 2: Prompt Template Text Summarization:
 
 **Use Case**: Small text file
 
@@ -26,7 +26,7 @@ Method:
 2. Load text, and variable to the llm model
 3. Produce summary
 
-### Techniques 3: Stuff Document Text Summarization:
+### Technique 3: Stuff Document Text Summarization:
 
 **Use Case**: Small Pages of pdf file
 
@@ -39,7 +39,7 @@ Method:
 5. Load text, and variable to the llm chain model with "stuff" as parameter for chain_type
 6. Produce summary
 
-### Techniques 4: Map Reduce Text Summarization:
+### Technique 4: Map Reduce Text Summarization:
 
 **Use Case**: Large pages of pdf file
 
@@ -50,7 +50,7 @@ Method:
 3. For every chunk we will get the summary
 4. llm model will combine the summary for each chunk and provide the final summary
 
-### Techniques 5: Refine Chain Text Summarization:
+### Technique 5: Refine Chain Text Summarization:
 
 **Use Case**: Large pages of pdf file
 
@@ -63,7 +63,7 @@ Method:
 5.  The 2nd chunk summary will combine with 3rd chunk text and will be send to llm to produce 3rd chunk summary. AND so on.
 6.  Output the summary based on custom prompt template
 
-### Techniques 6: Map Reduce with Custom Prompt Text Summarization:
+### Technique 6: Map Reduce with Custom Prompt Text Summarization:
 
 **Use Case**: Large pages of pdf file
 
