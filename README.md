@@ -1,11 +1,14 @@
 # Text Summarization Using LangChain
 
+![Screenshot](img/project_screenshot.png)
+
 ## Introduction
 
 This project consist of the usage and application in various techniques for text summarization using LangChain.
 
 - **Techniques 1: Basic Text Summarization**:
-  Use Case: Small text file
+
+  - Use Case: Small text file
 
   Method:
 
@@ -14,7 +17,8 @@ This project consist of the usage and application in various techniques for text
   3. Produce summary
 
 - **Techniques 2: Prompt Template Text Summarization**:
-  Use Case: Small text file
+
+  - Use Case: Small text file
 
   Method:
 
@@ -23,7 +27,8 @@ This project consist of the usage and application in various techniques for text
   3. Produce summary
 
 - **Techniques 3: Stuff Document Text Summarization**:
-  Use Case: Small Pages of pdf file
+
+  - Use Case: Small Pages of pdf file
 
   Method:
 
@@ -35,7 +40,8 @@ This project consist of the usage and application in various techniques for text
   6. Produce summary
 
 - **Techniques 4: Map Reduce Text Summarization**:
-  Use Case: Large pages of pdf file
+
+  - Use Case: Large pages of pdf file
 
   Method:
 
@@ -45,29 +51,29 @@ This project consist of the usage and application in various techniques for text
   4. llm model will combine the summary for each chunk and provide the final summary
 
 - **Techniques 5: Refine Chain Text Summarization**:
-  Use Case: Large pages of pdf file
+
+  - Use Case: Large pages of pdf file
 
   Method:
 
-1.  Convert large document into chunk
-2.  Send the chunk to llm model
-3.  For every chunk we will get the summary
-4.  First chunk summary + 2nd chunk will be send to the llm back to produce 2nd chunk summary
-5.  The 2nd chunk summary will combine with 3rd chunk text and will be send to llm to produce 3rd chunk summary. AND so on.
-6.  Output the summary based on custom prompt template
+  1.  Convert large document into chunk
+  2.  Send the chunk to llm model
+  3.  For every chunk we will get the summary
+  4.  First chunk summary + 2nd chunk will be send to the llm back to produce 2nd chunk summary
+  5.  The 2nd chunk summary will combine with 3rd chunk text and will be send to llm to produce 3rd chunk summary. AND so on.
+  6.  Output the summary based on custom prompt template
 
 - **Techniques 6: Map Reduce with Custom Prompt Text Summarization**:
-  Use Case: Large pages of pdf file
+
+  - Use Case: Large pages of pdf file
 
   Method:
 
-1.  Convert large document into chunk
-2.  Send the chunk to llm model
-3.  For every chunk we will get the summary
-4.  Create a custom prompt
-5.  llm model will combine the summary for each chunk and provide the final summary based on prompt
-
-![Screenshot](img/project_screenshot.png)
+  1.  Convert large document into chunk
+  2.  Send the chunk to llm model
+  3.  For every chunk we will get the summary
+  4.  Create a custom prompt
+  5.  llm model will combine the summary for each chunk and provide the final summary based on prompt
 
 ## Technology Used
 
